@@ -30,7 +30,7 @@ public class DAOFactory {
 	if("ENCHERE" == name.toUpperCase())
 	    return new EnchereDAO();
 
-	if("CATEGORY" == name.toUpperCase())
+	if("CATEGORIE" == name.toUpperCase())
 	    return new CategorieDAO();
 
 	if("RETRAIT" == name.toUpperCase())
