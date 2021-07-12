@@ -8,6 +8,7 @@ public class EnchereManager {
 	super();
     }
     
+    @SuppressWarnings("unused")
     private static EnchereManager getEnchereManager() {
 	
 	if(EnchereManager.instance == null)

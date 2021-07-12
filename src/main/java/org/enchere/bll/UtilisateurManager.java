@@ -8,6 +8,7 @@ private static UtilisateurManager instance = null;
 	super();
     }
     
+    @SuppressWarnings("unused")
     private static UtilisateurManager getUtilisateurManager() {
 	
 	if(UtilisateurManager.instance == null)

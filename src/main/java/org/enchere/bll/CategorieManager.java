@@ -8,6 +8,7 @@ public class CategorieManager {
 	super();
     }
     
+    @SuppressWarnings("unused")
     private static CategorieManager getCategorieManager() {
 	
 	if(CategorieManager.instance == null)

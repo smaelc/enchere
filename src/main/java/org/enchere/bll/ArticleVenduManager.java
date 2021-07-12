@@ -8,6 +8,7 @@ public class ArticleVenduManager {
 	super();
     }
 
+    @SuppressWarnings("unused")
     private static ArticleVenduManager getArticleVenduManager() {
 
 	if(ArticleVenduManager.instance == null)

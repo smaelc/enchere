@@ -8,6 +8,7 @@ public class RetraitManager {
 	super();
     }
 
+    @SuppressWarnings("unused")
     private static RetraitManager getRetraitManager() {
 
 	if(RetraitManager.instance == null)
